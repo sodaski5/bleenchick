@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<h1 style="color: #c3c3c3">{{ preview.title }}</h1>
+<div class="row">
+    <div class="col-md-8">
+        <img class="ib" src="{% static preview.image %}" alt="" width="50%">
+    </div>
+    <div class="col-md-4">
+        <h5 >Details:</h5>
+        <p>{{ preview.description }}</p>
+        <br>
+    </div>
+</div>
+{% endblock %}
