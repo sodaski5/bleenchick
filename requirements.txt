@@ -48,7 +48,6 @@ gym==0.18.3
 h5py==3.1.0
 HeapDict==1.0.1
 imageio==2.4.0
-1277/work
 jdcal==1.4.1
 json5==0.9.5
 jupyter==1.0.0
