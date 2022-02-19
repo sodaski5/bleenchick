@@ -1,12 +1,22 @@
-body{
-    --primary: #376e83;
-    --success: #000;
-    background-image: url(b2.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    font-family: Cursive !important;
+.content {
+  position: absolute;
+  left: 50%;
+  margin-top: 1rem;
+  transform: translateX(-50%);
+  width: 80%;
+  font-family: Cursive !important;
+  --primary: #376e83;
+  --success: #000;
+}
+
+.img {
+  background: url(b2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
 }
 
 .navbar-brand img {
@@ -118,3 +128,7 @@ h5{
 .ib {
     box-shadow: #dae1e8 0px 20px 30px -10px;
 }
+
+@media screen and (max-width: 700px) {
+    img {width: 200px}
+    }
